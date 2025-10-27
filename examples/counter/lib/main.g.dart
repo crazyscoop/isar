@@ -16,12 +16,12 @@ extension GetCountCollection on Isar {
 
 const CountSchema = IsarGeneratedSchema(
   schema: IsarSchema(
-    name: "Count",
-    idName: "id",
+    name: 'Count',
+    idName: 'id',
     embedded: false,
     properties: [
       IsarPropertySchema(
-        name: "step",
+        name: 'step',
         type: IsarType.long,
       ),
     ],
